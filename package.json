@@ -1,0 +1,28 @@
+{
+  "name": "peiyu-reader",
+  "version": "1.0.0",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "description": "佩宇书屋 - 基于开源阅读器定制的高质量阅读器，采用渊墨金阁UI系统",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/11223456789/yueduqi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/11223456789/yueduqi/issues"
+  },
+  "homepage": "https://github.com/11223456789/yueduqi#readme"
+}

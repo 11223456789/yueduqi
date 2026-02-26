@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    
+    <!-- 书架图标 -->
+    <path
+        android:pathData="M4,2 L20,2 L20,22 L4,22 Z"
+        android:fillColor="#FFD700" />
+    
+    <path
+        android:pathData="M6,4 L18,4 L18,20 L6,20 Z"
+        android:fillColor="#FFF8DC" />
+    
+    <!-- 书架分隔线 -->
+    <path
+        android:pathData="M6,8 L18,8"
+        android:strokeColor="#8B4513"
+        android:strokeWidth="1" />
+    
+    <path
+        android:pathData="M6,12 L18,12"
+        android:strokeColor="#8B4513"
+        android:strokeWidth="1" />
+    
+    <path
+        android:pathData="M6,16 L18,16"
+        android:strokeColor="#8B4513"
+        android:strokeWidth="1" />
+</vector>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- 金色渐变背景 -->
+    <path
+        android:pathData="M0,0 L108,0 L108,108 L0,108 Z"
+        android:fillColor="#FFD700" />
+    
+    <!-- 内圈渐变 -->
+    <path
+        android:pathData="M15,15 L93,15 L93,93 L15,93 Z"
+        android:fillColor="#FFA500" />
+    
+    <!-- 书籍形状 -->
+    <path
+        android:pathData="M30,35 L78,35 L78,73 L30,73 Z"
+        android:fillColor="#8B4513" />
+    
+    <!-- 书页 -->
+    <path
+        android:pathData="M35,40 L73,40 L73,68 L35,68 Z"
+        android:fillColor="#FFF8DC" />
+    
+    <!-- 书名"佩宇书屋"的艺术字 -->
+    <path
+        android:pathData="M40,50 L44,50 L44,58 L40,58 Z"
+        android:fillColor="#8B4513" />
+    
+    <path
+        android:pathData="M46,50 L50,50 L50,58 L46,58 Z"
+        android:fillColor="#8B4513" />
+    
+    <path
+        android:pathData="M52,50 L56,50 L56,58 L52,58 Z"
+        android:fillColor="#8B4513" />
+    
+    <path
+        android:pathData="M58,50 L62,50 L62,58 L58,58 Z"
+        android:fillColor="#8B4513" />
+    
+    <!-- 装饰花纹 -->
+    <path
+        android:pathData="M25,25 L30,25 L30,30 L25,30 Z"
+        android:fillColor="#FFD700" />
+    
+    <path
+        android:pathData="M78,25 L83,25 L83,30 L78,30 Z"
+        android:fillColor="#FFD700" />
+    
+    <path
+        android:pathData="M25,78 L30,78 L30,83 L25,83 Z"
+        android:fillColor="#FFD700" />
+    
+    <path
+        android:pathData="M78,78 L83,78 L83,83 L78,83 Z"
+        android:fillColor="#FFD700" />
+</vector>
