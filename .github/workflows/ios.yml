@@ -1,4 +1,4 @@
-name: Build Peiyu Reader APK
+name: Build Peiyu Reader iOS
 
 on:
   push:
@@ -11,7 +11,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     
     steps:
     - uses: actions/checkout@v4
@@ -28,11 +28,11 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
       
-    - name: Build APK with Gradle
-      run: ./gradlew assembleRelease --build-cache --parallel --daemon --warning-mode all
+    - name: Build iOS with Gradle
+      run: ./gradlew linkPodReleaseFrameworkIosArm64 --build-cache --parallel --daemon --warning-mode all
       
-    - name: Upload APK
+    - name: Upload iOS Framework
       uses: actions/upload-artifact@v4
       with:
-        name: peiyu-reader-apk
-        path: app/build/outputs/apk/release/*.apk
+        name: peiyu-reader-ios-framework
+        path: app/build/bin/iosArm64/releaseFramework/*.framework

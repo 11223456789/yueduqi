@@ -1,14 +1,6 @@
-name: Build Web
+name: Build Web (Disabled)
 
 on:
-  push:
-    branches:
-      - master
-    paths:
-      - '**/modules/web/**'
-  pull_request:
-    paths:
-      - '**/modules/web/**'
   workflow_dispatch:
 
 env:
