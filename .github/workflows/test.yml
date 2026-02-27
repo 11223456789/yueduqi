@@ -1,23 +1,6 @@
-name: Test Build
+name: Test Build (Disabled)
 
 on:
-  push:
-    branches:
-      - master
-    paths:
-      - '**'
-      # - '!**/assets/**'
-      # - '!**.md'
-      - '!**/ISSUE_TEMPLATE/**'
-      - '!**/modules/web/**'
-  pull_request:
-    paths-ignore:
-      - '**/modules/web/**'
-  workflow_run:
-    workflows: [Build Web]
-    branches: [master]
-    types:
-      - completed
   workflow_dispatch:
 
 concurrency:
