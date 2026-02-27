@@ -18,7 +18,7 @@ import java.io.InputStream
 
 @Suppress("unused")
 @GlideModule
-class LegadoGlideModule : AppGlideModule() {
+class PeiyuGlideModule : AppGlideModule() {
 
     override fun registerComponents(context: Context, glide: Glide, registry: Registry) {
         registry.replace(
